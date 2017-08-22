@@ -1,0 +1,12 @@
+[Introduction]
+ms3dXRayImport.dll implements support to import *.ogf, *.dm, *.skl files.
+ms3dXRayExport.dll implements support to export *.object and *.skl files.
+
+
+[Installation]
+Copy ms3dXRayImport.dll and ms3dXRayExport.dll into Milkshape 3D folder.
+Adjust $sdk_root$ in xray_path.ltx and copy into the same folder.
+
+
+[Usage]
+Make sure to type in the extension explicitly during the export.
