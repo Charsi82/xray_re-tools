@@ -211,7 +211,7 @@ void xr_ini_writer::close_section()
 
 void xr_ini_writer::write(const char *key, const char *value, bool enclose)
 {
-	w_sf(enclose ? "%9s%-34s = %s\n" : "%9s%-34s = \"%s\"\n" , "", key, value);
+	w_sf(enclose ? "%9s%-34s = \"%s\"\n" : "%9s%-34s = %s\n" , "", key, value);
 }
 
 void xr_ini_writer::write(const char *key, std::string value, bool enclose)
